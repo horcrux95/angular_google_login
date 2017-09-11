@@ -5,11 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { LinkedInSdkModule } from 'angular-linkedin-sdk';
 
-import { AppComponent } from './app.component';
+import { GoogleSigninComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    GoogleSigninComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +18,7 @@ import { AppComponent } from './app.component';
     LinkedInSdkModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [GoogleSigninComponent]
 })
 export class AppModule { }
 //7842ficiaik137  78qcfv1qw6cn34
